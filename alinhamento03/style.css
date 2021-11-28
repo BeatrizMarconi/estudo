@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+}
+.azul{
+    background: blue;
+}
+.amarelo{
+    background: yellow;
+}
+.preto{
+    background: black;
+}
+.vermelho{
+    background: red;
+}
+.verde{
+    background: green;
+}
+.col{
+    height: 200px;
+    width: 100%;
+}
