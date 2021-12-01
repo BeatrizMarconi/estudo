@@ -1,0 +1,11 @@
+#row{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col{
+    width:150px;
+    height:150px;
+    background: #00ff7f;
+    margin: 10px 0;
+}
