@@ -1,0 +1,24 @@
+.alignment-center{
+    background: purple;
+    color: #21e4e4;
+    align-items: center;
+}
+
+.alignment-center-top{
+    background: black;
+    color: white;
+    align-items: flex-start;
+}
+
+.alignment-center-below{
+    background: pink;
+    color: black;
+    align-items: flex-end;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+}
