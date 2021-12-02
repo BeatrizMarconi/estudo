@@ -1,0 +1,74 @@
+body, html{ height: 100%; margin: 0; }
+
+.alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-purple{
+    background: #9400D3;
+    width: 250px ;
+    height: 700px;  
+}
+
+.bg-white{
+    background: white;
+}
+
+.dimensions{
+    width:220px;
+    height: 100px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.border{
+    border-radius: 5px;
+}
+
+.margin{
+    width:580px;
+    height: 280px;
+}
+
+.dad1{
+     margin-top: 5px;   
+     }
+
+.dad2{  
+    width:220px;
+    height:440px;
+    margin:20px 0;
+}
+
+.dad3{   
+    margin-bottom: 5px;
+    width:220px;
+    height: 100px;
+}
+
+.bg-green{
+    background: #00FF7F;
+    width: 1200px ;
+    height: 700px;  
+}
+
+.son1{
+    width:1170px;
+    height: 280px;
+    margin: 15px 10px 5px 20px;
+}
+
+.son2{
+    margin: 5px 5px 80px 20px;
+  
+}
+.son3{
+    margin: 5px 10px 80px 5px; 
+}
+
+
+
