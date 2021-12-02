@@ -4,20 +4,18 @@
     justify-content: center;
 
 }
+
 .div-vo{
     display: flex;
     width: 70%;
+    justify-content: space-between;
 }
+
 .div-pai{
-    display: flex;
-    justify-content: left;
-    width: 50%;
     margin-left: 5px;
 }
+
 .div-pai2{
-    display: flex;
-    justify-content: right;
-    width: 50%;
     margin-right: 30px;
     
 }
@@ -26,6 +24,12 @@
 }
 
 .color{
-    color: #ffffff;
+    color: #ffffff; 
 }
-
+.alignment{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+  }
