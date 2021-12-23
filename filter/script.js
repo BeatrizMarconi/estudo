@@ -155,6 +155,76 @@
 
 
 
+// let carros = [
+//     {
+//         nome: "Gol",
+//         marca: "volkswagem",
+//         km: 123644,
+//         cor: "preta",
+//         ano: 2013
+//     },
+//     {
+//         nome: "Mobi",
+//         marca: "fiat",
+//         km: 239156,
+//         cor: "branca",
+//         ano: 2016
+//     },
+//     {
+//         nome: "Celta",
+//         marca: "gm",
+//         km: 90000,
+//         cor: "vermelha",
+//         ano: 2012
+//     },
+//     {
+//         nome: "Fiesta",
+//         marca: "ford",
+//         km: 156234,
+//         cor: "vermelha",
+//         ano: 2012
+//     },
+//     {
+//         nome: "Focus",
+//         marca: "ford",
+//         km: 186234,
+//         cor: "vermelha",
+//         ano: 2008
+//     },
+//     {
+//         nome: "Onix",
+//         marca: "gm",
+//         km: 50000,
+//         cor: "branca",
+//         ano: 2017
+//     },
+//     {
+//         nome: "Fox",
+//         marca: "volkswagem",
+//         km: 202000,
+//         cor: "cinza",
+//         ano: 2011
+//     },
+//     {
+//         nome: "Toro",
+//         marca: "fiat",
+//         km: 200,
+//         cor: "cinza",
+//         ano: 2022
+//     }
+// ]
+
+// let pretos = carros.filter(preto=>{
+//     return preto.cor == "preta"
+// });
+
+// console.log(`==============CARROS PRETOS=============`)
+// pretos.forEach(carrospretos =>{
+//     console.log(`Carro ${carrospretos.nome}, marca ${carrospretos.marca}, km ${carrospretos.km}, cor ${carrospretos.cor}, ano ${carrospretos.ano}`)
+// });
+
+
+
 let carros = [
     {
         nome: "Gol",
@@ -214,15 +284,14 @@ let carros = [
     }
 ]
 
-let pretos = carros.filter(preto=>{
-    return preto.cor == "preta"
+let maiorDe2012 = carros.filter(maioresDe2012=>{
+    return maioresDe2012.ano > 2012
 });
 
-console.log(`==============CARROS PRETOS=============`)
-pretos.forEach(carrospretos =>{
-    console.log(`Carro ${carrospretos.nome}, marca ${carrospretos.marca}, km ${carrospretos.km}, cor ${carrospretos.cor}, ano ${carrospretos.ano}`)
+console.log(`=========CARROS ACIMA DE 2012==========`)
+maiorDe2012.forEach(carrosmaioresde2012 =>{
+    console.log(`Carro ${carrosmaioresde2012.nome}, marca ${carrosmaioresde2012.marca}, km ${carrosmaioresde2012.km}, cor ${carrosmaioresde2012.cor}, ano ${carrosmaioresde2012.ano}`)
 });
-
 
 
 
