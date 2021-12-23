@@ -57,11 +57,29 @@ let carros = [
     }
 ];
 
+// let carrosimplificado = carros.map(carro=>{
+//     return{
+//         marca: carro.marca,
+//         cor: carro.cor
+//     }
+// });
+
+// console.log(carrosimplificado)
+
 let carrosimplificado = carros.map(carro=>{
     return{
         marca: carro.marca,
-        cor: carro.cor
+        ano: carro.ano
     }
 });
 
-console.log(carrosimplificado)
+let carromaior2018 = carrosimplificado.filter(carrosmaior2018=>{
+    return carrosmaior2018.ano >=2018
+});
+
+let carromenor2018 = carrosimplificado.filter(carrosmenor2018=>{
+    return carrosmenor2018.ano < 2018
+});
+
+console.log(carromaior2018)
+console.log(carromenor2018)
