@@ -66,8 +66,18 @@
 // retornaMarca('gm')
 
 
-function retornaNomeIdade (nome,idade){
-    console.log(`Olá! Me chamo ${nome} e tenho ${idade} anos de idade.`)
+// function retornaNomeIdade (nome,idade){
+//     console.log(`Olá! Me chamo ${nome} e tenho ${idade} anos de idade.`)
+// }
+
+// retornaNomeIdade('Junior', 87);
+
+
+function retornaIMC (peso,altura){
+
+    let IMC= peso/(altura*altura)
+    console.log(`Seu IMC é: ${IMC}.`);
+
 }
 
-retornaNomeIdade('Junior', 87);
+retornaIMC (98.000,1.55);
