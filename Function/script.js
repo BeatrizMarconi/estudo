@@ -73,11 +73,33 @@
 // retornaNomeIdade('Junior', 87);
 
 
-function retornaIMC (peso,altura){
 
-    let IMC= peso/(altura*altura)
-    console.log(`Seu IMC é: ${IMC}.`);
+// function retornaIMC (peso,altura){
 
-}
+//     let IMC= peso/(altura*altura)
+//     console.log(`Seu IMC é: ${IMC}.`);
 
-retornaIMC (98.000,1.55);
+// }
+
+// retornaIMC (98.000,1.55);
+
+
+let animais = ['Baleia','Macaco','Tubarão','Ovelha','Onça','Jacaré','Cachorro'];
+
+function adicionaFinal (nomeAnimal1){
+    animais.push(nomeAnimal1)
+};
+
+function adicionaInicio (nomeAnimal2){
+    animais.unshift(nomeAnimal2)
+};
+
+function substituiAnimal(nomeAnimal3){
+    animais[1] = nomeAnimal3
+};
+
+adicionaFinal('Morcego');
+adicionaInicio('Peixe-Palhaço');
+substituiAnimal('Macaco-Prego');
+
+console.log(animais);
